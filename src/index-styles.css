@@ -1,0 +1,48 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #191919;
+  color: beige;
+}
+
+body main p {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* main classes and ids */
+
+#main-gaspa {
+  font-size: 50px;
+  top: 335px;
+}
+
+#handle-gaspa {
+  font-size: 30px;
+  top: 300px;
+}
+
+.redirect-icons {
+  width: 45px;
+  position: absolute;
+  top: 435px;
+  filter: invert(90%);
+}
+
+#github-icon {
+  left: 40%;
+}
+
+#insta-icon {
+  left: 47.5%;
+}
+
+#twitter-icon {
+  left: 55%;
+}
+
+.about-me {
+  font-size: 25px;
+  color: beige;
+  top: 600px;
+}

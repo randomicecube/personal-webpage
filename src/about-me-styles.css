@@ -1,0 +1,13 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #191919;
+  color: beige;
+}
+
+.about-me-text {
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  right: 3%;
+  /* text-align: center; */
+}
