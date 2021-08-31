@@ -12,37 +12,60 @@ body main p {
 
 /* main classes and ids */
 
-#main-gaspa {
-  font-size: 50px;
-  top: 335px;
-}
-
-#handle-gaspa {
+.handle-gaspa {
   font-size: 30px;
-  top: 300px;
+  top: 30%;
 }
 
-.redirect-icons {
+.main-gaspa {
+  font-size: 50px;
+  top: 35%;
+}
+
+/* #redirect-icons {
+  display: inline-flex;
+  flex-direction: column;
   width: 45px;
   position: absolute;
   top: 435px;
   filter: invert(90%);
+} */
+
+#redirect-icons {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 150px;
+  filter: invert(90%);
+  position: absolute;
+  left: 50%;
+  top: 42.5%;
+  transform: translate(-50%, 50%);
 }
 
 #github-icon {
-  left: 40%;
+  /* background-color: aqua; */
+  width: 100%;
+  height: 100%;
+  margin: 4%;
 }
 
 #insta-icon {
-  left: 47.5%;
+  /* background-color: greenyellow; */
+  width: 100%;
+  height: 100%;
+  margin: 4%;
 }
 
 #twitter-icon {
-  left: 55%;
+  /* background-color: blueviolet; */
+  width: 100%;
+  height: 100%;
+  margin: 4%;
 }
 
 .about-me {
   font-size: 25px;
   color: beige;
-  top: 600px;
+  top: 57.5%;
 }

@@ -7,7 +7,7 @@ template.innerHTML = `
       text-decoration: none;
       position: absolute;
       top: 1%;
-      left: 3%;
+      left: 1%;
     }
 
     footer {
