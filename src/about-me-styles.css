@@ -7,6 +7,7 @@ body {
 #dotfiles-link {
   text-decoration: none;
   color: cornflowerblue;
+  transition: all 0.3 ease-in-out;
 }
 
 .about-me-text {

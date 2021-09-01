@@ -25,35 +25,58 @@ body main p {
 #redirect-icons {
   display: flex;
   justify-content: space-between;
-  height: 100px;
+  height: 50px;
   width: 150px;
-  filter: invert(90%);
   position: absolute;
   left: 50%;
   top: 42.5%;
   transform: translate(-50%, 50%);
 }
 
+#redirect-icons img {
+  filter: invert(85%);
+}
+
 #github-icon {
   width: 100%;
   height: 100%;
   margin: 5%;
+  transition: all 0.3s ease-in-out;
+}
+
+#github-icon:hover {
+  filter: brightness(150%);
 }
 
 #insta-icon {
   width: 100%;
   height: 100%;
   margin: 5%;
+  transition: all 0.3s ease-in-out;
+}
+
+#insta-icon:hover {
+  filter: brightness(150%);
 }
 
 #twitter-icon {
   width: 100%;
   height: 100%;
   margin: 5%;
+  transition: all 0.3s ease-in-out;
+}
+
+#twitter-icon:hover {
+  filter: brightness(150%);
 }
 
 #about-me {
   font-size: 25px;
   color: beige;
   top: 57.5%;
+  transition: all 0.3s ease-in-out;
+}
+
+#about-me:hover {
+  color: cornflowerblue;
 }

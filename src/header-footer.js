@@ -13,11 +13,6 @@ template.innerHTML = `
       left: 1%;
     }
     
-    #template-header:hover {
-      color: white;
-      transition: all 0.3s ease;
-    }
-    
     /* footer classes and ids */
     
     .template-footer {
@@ -48,6 +43,7 @@ template.innerHTML = `
     #source-code {
       color: beige;
       text-decoration: none;
+      transition: all 0.3s ease-in-out;
     }
     
     #source-code:hover {
