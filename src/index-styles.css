@@ -12,24 +12,15 @@ body main p {
 
 /* main classes and ids */
 
-.handle-gaspa {
+#handle-gaspa {
   font-size: 30px;
   top: 30%;
 }
 
-.main-gaspa {
+#main-gaspa {
   font-size: 50px;
   top: 35%;
 }
-
-/* #redirect-icons {
-  display: inline-flex;
-  flex-direction: column;
-  width: 45px;
-  position: absolute;
-  top: 435px;
-  filter: invert(90%);
-} */
 
 #redirect-icons {
   display: flex;
@@ -44,28 +35,77 @@ body main p {
 }
 
 #github-icon {
-  /* background-color: aqua; */
   width: 100%;
   height: 100%;
-  margin: 4%;
+  margin: 5%;
 }
 
 #insta-icon {
-  /* background-color: greenyellow; */
   width: 100%;
   height: 100%;
-  margin: 4%;
+  margin: 5%;
 }
 
 #twitter-icon {
-  /* background-color: blueviolet; */
   width: 100%;
   height: 100%;
-  margin: 4%;
+  margin: 5%;
 }
 
-.about-me {
+#about-me {
   font-size: 25px;
   color: beige;
   top: 57.5%;
+}
+
+/* header classes and ids */
+
+#template-header {
+  font-size: 10px;
+  color: beige;
+  text-decoration: none;
+  position: absolute;
+  left: 1%;
+}
+
+#template-header:hover {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+/* footer classes and ids */
+
+.template-footer {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100px;
+  width: 300px;
+  position: absolute;
+  left: 50%;
+  top: 92.5%;
+  transform: translate(-50%, -50%);
+}
+
+#footer-box-1 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#footer-box-2 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#source-code {
+  color: beige;
+  text-decoration: none;
+}
+
+#source-code:hover {
+  color: cornflowerblue;
+  transition: all 0.3s ease;
 }

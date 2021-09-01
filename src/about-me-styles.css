@@ -4,6 +4,11 @@ body {
   color: beige;
 }
 
+#dotfiles-link {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
 .about-me-text {
   position: absolute;
   top: 10%;
