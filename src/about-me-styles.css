@@ -12,8 +12,7 @@ body {
 
 .about-me-text {
   position: absolute;
-  top: 10%;
-  left: 1%;
-  right: 1%;
-  /* text-align: center; */
+  top: 15%;
+  left: 15%;
+  right: 15%;
 }
