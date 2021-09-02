@@ -13,13 +13,13 @@ body main p {
 /* main classes and ids */
 
 #handle-gaspa {
-  font-size: 30px;
+  font-size: clamp(1rem, 5vw, 1.75rem);
   top: 30%;
 }
 
 #main-gaspa {
-  font-size: 50px;
-  top: 35%;
+  font-size: clamp(1rem, 6.5vw, 2.25rem);
+  top: 37.5%;
 }
 
 #redirect-icons {
@@ -29,7 +29,7 @@ body main p {
   width: 150px;
   position: absolute;
   left: 50%;
-  top: 42.5%;
+  top: 45%;
   transform: translate(-50%, 50%);
 }
 
@@ -71,9 +71,9 @@ body main p {
 }
 
 #about-me {
-  font-size: 25px;
+  font-size: clamp(1rem, 5vw, 1.9rem);
   color: beige;
-  top: 57.5%;
+  top: 60%;
   transition: all 0.3s ease-in-out;
 }
 
