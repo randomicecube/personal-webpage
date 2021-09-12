@@ -24,7 +24,7 @@ template.innerHTML = `
       width: 300px;
       position: absolute;
       left: 50%;
-      top: 92.5%;
+      top: 90%;
       transform: translate(-50%, -50%);
     }
     
@@ -61,6 +61,7 @@ template.innerHTML = `
     <div class="template-footer">
       <div id="footer-box-1">
         <p>contact me on discord - gaspa#4057</p>
+        <p>or by e-mail - diogo@gaspa.pt</p>
       </div>
       <div id="footer-box-2">
         <a
