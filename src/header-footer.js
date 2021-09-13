@@ -10,7 +10,7 @@ template.innerHTML = `
       color: beige;
       text-decoration: none;
       position: absolute;
-      left: 1%;
+      left: 2%;
     }
     
     /* footer classes and ids */
@@ -21,7 +21,7 @@ template.innerHTML = `
       justify-content: space-between;
       flex-direction: column;
       height: 100px;
-      width: 300px;
+      width: 325px;
       position: absolute;
       left: 50%;
       top: 90%;
@@ -60,8 +60,8 @@ template.innerHTML = `
   <footer>
     <div class="template-footer">
       <div id="footer-box-1">
-        <p>contact me on discord - gaspa#4057</p>
-        <p>or by e-mail - diogo@gaspa.pt</p>
+        <p>contact me by e-mail - diogo@gaspa.pt</p>
+        <p>or by discord - gaspa#4057</p>
       </div>
       <div id="footer-box-2">
         <a
