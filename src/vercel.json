@@ -1,4 +1,15 @@
 {
+  "github": {
+    "silent": true
+  },
+
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+
+  "redirects": [
+    {
+      "source": "/gaspafiles",
+      "destination": "https://github.com/randomicecube/gaspafiles"
+    }
+  ]
 }
