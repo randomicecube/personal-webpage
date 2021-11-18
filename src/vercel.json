@@ -24,7 +24,7 @@
       "destination": "https://instagram.com/diogomgaspar"
     },
     {
-      "source": "/v1/twitter",
+      "source": "/twitter",
       "destination": "https://twitter.com/adivinhaste"
     }
   ]
