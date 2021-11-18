@@ -8,23 +8,23 @@
 
   "redirects": [
     {
-      "source": "/gaspafiles",
+      "source": "/v1/gaspafiles",
       "destination": "https://github.com/randomicecube/gaspafiles"
     },
     {
-      "source": "/github",
+      "source": "/v1/github",
       "destination": "https://github.com/randomicecube"
     },
     {
-      "source": "/gh",
+      "source": "/v1/gh",
       "destination": "https://github.com/randomicecube"
     },
     {
-      "source": "/insta",
+      "source": "/v1/insta",
       "destination": "https://instagram.com/diogomgaspar"
     },
     {
-      "source": "/twitter",
+      "source": "/v1/twitter",
       "destination": "https://twitter.com/adivinhaste"
     }
   ]
