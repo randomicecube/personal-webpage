@@ -6,7 +6,7 @@ template.innerHTML = `
     /* header classes and ids */
   
     #template-header {
-      font-size: 1rem;
+      font-size: clamp(1rem, 1vw, 1rem);
       color: beige;
       text-decoration: none;
       position: absolute;
