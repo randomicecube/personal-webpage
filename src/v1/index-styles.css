@@ -15,10 +15,12 @@ body main p {
   position: absolute;
   transform: translate(-50%, 50%);
   left: 50%;
+  font-size: clamp(1rem, 5vw, 1.9rem);
 }
 
 body main h1 {
   top: 30%;
+  text-align: center;
 }
 
 /* main classes and ids */
@@ -27,10 +29,7 @@ body main h1::before,
 body main h1::after {
   content: "";
   position: absolute;
-  top: 0%;
-  left: 0%;
-  right: 0%;
-  bottom: 0%;
+  inset: 0%; /* replaces top, bottom, right, left all at 0 */
 }
 
 body main h1::before {
