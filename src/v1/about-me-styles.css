@@ -1,7 +1,9 @@
-body {
-  font-family: montserrat, monospace;
-  background-color: #191919;
+:root {
+  font-family: "Source Code Pro", monospace;
   color: beige;
+  --bg-color: #191919;
+  --type_writer-speed: 0s;
+  background-color: var(--bg-color);
 }
 
 #dotfiles-link {
@@ -15,4 +17,12 @@ body {
   top: 15%;
   left: 15%;
   right: 15%;
+  opacity: 0;
+  animation: fade-in-up 2s ease calc(var(--type_writer-speed) + 0.75s) forwards;
+}
+
+@keyframes fade-in-up {
+  to {
+    opacity: 1;
+  }
 }

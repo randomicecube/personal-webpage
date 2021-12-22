@@ -1,25 +1,48 @@
-body {
-  font-family: montserrat, monospace;
-  background-color: #191919;
+:root {
+  font-family: "Source Code Pro", monospace;
   color: beige;
+  --bg-color: #191919;
+  --type_writer-speed: 3s;
+  background-color: var(--bg-color);
 }
 
+body {
+  display: grid;
+}
+
+body main h1,
 body main p {
   position: absolute;
+  transform: translate(-50%, 50%);
   left: 50%;
-  transform: translate(-50%, -50%);
+}
+
+body main h1 {
+  top: 30%;
 }
 
 /* main classes and ids */
 
-#handle-gaspa {
-  font-size: clamp(1rem, 5vw, 1.75rem);
-  top: 30%;
+body main h1::before,
+body main h1::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
 }
 
-#main-gaspa {
-  font-size: clamp(1rem, 6.5vw, 2.25rem);
-  top: 37.5%;
+body main h1::before {
+  background-color: var(--bg-color);
+  animation: type_writer var(--type_writer-speed) steps(13) 1s forwards;
+}
+
+body main h1::after {
+  width: 0.125em;
+  background: rgb(230, 230, 185);
+  animation: type_writer var(--type_writer-speed) steps(13) 1s forwards,
+    blink 625ms steps(20) infinite;
 }
 
 #redirect-icons {
@@ -31,6 +54,8 @@ body main p {
   left: 50%;
   top: 45%;
   transform: translate(-50%, 50%);
+  opacity: 0;
+  animation: fade-in-up 2s ease calc(var(--type_writer-speed) + 0.75s) forwards;
 }
 
 #redirect-icons img {
@@ -75,8 +100,30 @@ body main p {
   color: beige;
   top: 60%;
   transition: all 0.3s ease-in-out;
+  opacity: 0;
+  animation: fade-in-up 2s ease calc(var(--type_writer-speed) + 0.75s) forwards;
 }
 
 #about-me:hover {
   color: cornflowerblue;
+}
+
+/* keyframes */
+
+@keyframes type_writer {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@keyframes fade-in-up {
+  to {
+    opacity: 1;
+  }
 }
