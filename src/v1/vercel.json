@@ -1,0 +1,31 @@
+{
+  "github": {
+    "silent": true
+  },
+
+  "cleanUrls": true,
+  "trailingSlash": false,
+
+  "redirects": [
+    {
+      "source": "/gaspafiles",
+      "destination": "https://github.com/randomicecube/gaspafiles"
+    },
+    {
+      "source": "/github",
+      "destination": "https://github.com/randomicecube"
+    },
+    {
+      "source": "/gh",
+      "destination": "https://github.com/randomicecube"
+    },
+    {
+      "source": "/insta",
+      "destination": "https://instagram.com/diogomgaspar"
+    },
+    {
+      "source": "/twitter",
+      "destination": "https://twitter.com/adivinhaste"
+    }
+  ]
+}
