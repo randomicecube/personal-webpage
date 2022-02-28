@@ -10,9 +10,7 @@ template.innerHTML = `
       color: beige;
       text-decoration: none;
       position: absolute;
-      opacity: 0;
-      left: 3.5%;
-      animation: fade-in-up 2s ease calc(var(--type_writer-speed) + 1s) forwards;
+      left: 2.5%;
     }
     
     /* footer classes and ids */
@@ -33,25 +31,19 @@ template.innerHTML = `
     #footer-box-1 {
       width: 100%;
       height: 100%;
-      opacity: 0;
       text-align: center;
-      animation: fade-in-up 2s ease calc(var(--type_writer-speed) + 1s) forwards;
     }
     
     #footer-box-2 {
       width: 100%;
       height: 100%;
-      opacity: 0;
       text-align: center;
-      animation: fade-in-up 2s ease calc(var(--type_writer-speed) + 1s) forwards;
     }
     
     #source-code {
       color: beige;
       text-decoration: none;
-      opacity: 0;
       transition: all 0.3s ease-in-out;
-      animation: fade-in-up 2s ease calc(var(--type_writer-speed) + 1s) forwards;
     }
     
     #source-code:hover {
