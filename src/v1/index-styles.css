@@ -87,3 +87,9 @@ body main h1 {
 #about-me:hover {
   color: cornflowerblue;
 }
+
+#link {
+  text-decoration: none;
+  color: cornflowerblue;
+  transition: all 0.3 ease-in-out;
+}

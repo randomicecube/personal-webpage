@@ -5,15 +5,15 @@
   background-color: var(--bg-color);
 }
 
-#dotfiles-link {
-  text-decoration: none;
-  color: cornflowerblue;
-  transition: all 0.3 ease-in-out;
-}
-
 .about-me-text {
   position: absolute;
   top: 15%;
   left: 15%;
   right: 15%;
+}
+
+#link {
+  text-decoration: none;
+  color: cornflowerblue;
+  transition: all 0.3 ease-in-out;
 }

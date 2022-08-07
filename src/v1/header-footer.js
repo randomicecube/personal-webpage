@@ -60,7 +60,9 @@ template.innerHTML = `
   <footer>
     <div class="template-footer">
       <div id="footer-box-1">
-        <p>contact me by e-mail - diogo@gaspa.pt</p>
+        <p>contact me by e-mail - 
+          <a href="mailto:diogo@gaspa.pt" id="link">diogo@gaspa.pt</a>
+        </p>
         <p>or by discord - gaspa#4057</p>
       </div>
       <div id="footer-box-2">
