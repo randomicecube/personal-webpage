@@ -52,11 +52,6 @@ template.innerHTML = `
     }
   
   </style>
-  <header>
-    <a id="template-header" href="index.html">
-      <h1>home</h1>
-    </a>
-  </header>
   <footer>
     <div class="template-footer">
       <div id="footer-box-1">
