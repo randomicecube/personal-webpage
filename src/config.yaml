@@ -21,10 +21,6 @@ menu:
       name: Search
       url: /search
       weight: 40
-    - identifier: cv
-      name: CV
-      url: https://cv.gaspa.pt
-      weight: 70
 
 params:
   # theme
@@ -75,11 +71,11 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 
 # for search using Fuse.js
-# outputs:
-#   home:
-#     - HTML
-#     - RSS
-#     - JSON
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 # allow HTML in MD
 markup:
