@@ -1,7 +1,7 @@
 ---
 title: "Full-Stack Developer"
 description: "DASI - IST"
-dateString: May 2022 - Ongoing
+dateString: May 2022 - May 2023
 draft: false
 showToc: false
 weight: 301

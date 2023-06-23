@@ -1,7 +1,7 @@
 ---
 title: "Core Maintainer and Contributor"
 description: "ResumosLEIC"
-dateString: Mar 2021 - Ongoing
+dateString: Mar 2021 - Jun 2023
 draft: false
 showToc: false
 weight: 302

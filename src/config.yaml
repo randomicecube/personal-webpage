@@ -37,7 +37,7 @@ params:
   profileMode:
     enabled: true
     title: "Diogo Gaspar"
-    subtitle: BSc. student in Computer Science and Engineering @ IST 🇵🇹<br>Full-Stack Developer @ DASI - IST
+    subtitle: MSc. student in Computer Science @ KTH 🇸🇪
     imageUrl: "home/me.jpg"
     imageWidth: 220
     imageHeight: 220
