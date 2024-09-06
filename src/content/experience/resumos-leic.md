@@ -1,10 +1,10 @@
 ---
 title: "Core Maintainer and Contributor"
 description: "ResumosLEIC"
-dateString: Mar 2021 - Jun 2023
+dateString: Feb 2021 - Jun 2023
 draft: false
 showToc: false
-weight: 302
+weight: 303
 ---
 
 ### Description
@@ -17,4 +17,4 @@ of courses such as [Algorithms' Synthesis and Analysis](https://leic.pt/asa)
 and [Introduction to Algorithms and Data Structures](https://leic.pt/iaed),
 among a plethora of others.
 
-![a](/experience/resumos-leic/leic.png#center)
+![ResumosLEIC](/experience/resumos-leic/leic.png#center)

@@ -4,18 +4,11 @@ description: "DASI - IST"
 dateString: May 2022 - May 2023
 draft: false
 showToc: false
-weight: 301
+weight: 302
 ---
 
 ### Description
 
-- Worked, from the first stages of development onwards, on the creation of the
-  second version of the **Técnico API**, IST's [institutional API](https://github.com/ist-dsi/fenixedu-api).
-  Had my first production-level contact with Java (and Spring), while also having
-  worked on thoroughly documenting it with [OpenAPI 3.1.0](https://www.openapis.org/blog/2021/02/18/openapi-specification-3-1-released).
-
-- Worked on Técnico's Mobile App (available for both [Android](https://play.google.com/store/apps/details?id=pt.ist.mobile&hl=pt_PT&gl=US)
-  and [iOS](https://apps.apple.com/pt/app/t%C3%A9cnico-lisboa/id959976468)), written
-  in React Native.
+Played a role in developing, testing, and maintaining several components of my university’s learning management system, FenixEdu, which is built using Java and the Spring framework. My major contribution was the development, alongside a team of several members, ranging from senior colleagues to other student developers, of a new version of the university's public API, featuring dozens of endpoints written in Java (Spring) and thoroughly documented using YAML (OpenAPI). To enhance accessibility, we created a user-centered display of the public API by setting up a custom website with NodeJS. We also optimized the deployment process by implementing a custom GitLab CI/CD pipeline with four stages, which significantly reduced deployment time and improved image-building reliability through automated version releases. Additionally, we improved the responsiveness and reliability of the university’s React Native mobile app by identifying and fixing bugs, alongside testing.
 
 ![](http://fenixedu.org/images/logo_og.png#center)

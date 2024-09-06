@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on gaspa</title>
+    <link>//localhost:1313/projects/</link>
+    <description>Recent content in Projects on gaspa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Galápagos: Automated N-Version Programming with LLMs</title>
+      <link>//localhost:1313/projects/galapagos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/galapagos/</guid>
+      <description>Galápagos is a tool that automates the generation of N-Version program variants using LLMs and validates their equivalence, demonstrating effectiveness in creating diverse and reliable variants, even across different programming languages.</description>
+    </item>
+    
+    <item>
+      <title>Knowledge Graph construction with Language Models</title>
+      <link>//localhost:1313/projects/seb-kg-llm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/seb-kg-llm/</guid>
+      <description>Collaborating alongside a group of colleagues with SEB, a leading Nordic bank, on a joint project for my Project Course in Data Science at KTH. My role involves proposing methods to enhance accuracy by integrating multiple large language models (LLMs) in a consensus-based pipeline. Our efforts also include dataset acquisition, data cleaning, and preprocessing, as well as managing the technical setup and integration of the language models within the project.</description>
+    </item>
+    
+  </channel>
+</rss>
