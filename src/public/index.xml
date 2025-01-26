@@ -21,7 +21,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/seb-kg-llm/</guid>
-      <description>Collaborating alongside a group of colleagues with SEB, a leading Nordic bank, on a joint project for my Project Course in Data Science at KTH. My role involves proposing methods to enhance accuracy by integrating multiple large language models (LLMs) in a consensus-based pipeline. Our efforts also include dataset acquisition, data cleaning, and preprocessing, as well as managing the technical setup and integration of the language models within the project.</description>
+      <description>Collaborating alongside a group of colleagues with SEB, a leading Nordic bank, on a joint project for my Project Course in Data Science at KTH.</description>
+    </item>
+    
+    <item>
+      <title>ResumosLEIC</title>
+      <link>//localhost:1313/projects/resumos-leic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/resumos-leic/</guid>
+      <description>A platform compiling class notes and useful tools for the Computer Science and Engineering Bachelor&amp;#39;s degree at Instituto Superior Técnico.</description>
     </item>
     
     <item>
@@ -40,15 +49,6 @@
       
       <guid>//localhost:1313/experience/dasi/</guid>
       <description>DASI - IST</description>
-    </item>
-    
-    <item>
-      <title>Core Maintainer and Contributor</title>
-      <link>//localhost:1313/experience/resumos-leic/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/experience/resumos-leic/</guid>
-      <description>ResumosLEIC</description>
     </item>
     
     

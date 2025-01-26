@@ -2,7 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/projects/placeholder/</loc>
+    <loc>//localhost:1313/projects/galapagos/</loc>
+  </url><url>
+    <loc>//localhost:1313/projects/seb-kg-llm/</loc>
+  </url><url>
+    <loc>//localhost:1313/experience/chains/</loc>
   </url><url>
     <loc>//localhost:1313/experience/dasi/</loc>
   </url><url>
